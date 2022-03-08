@@ -24,6 +24,16 @@
         <a class="navbar-brand" href="#">
           <img src="static/imgs/tplanet_logo_s.jpg" width="45" class="d-inline-block align-top" alt="">
         </a>
+        <a class="nav-link d-md-none" href="#">
+          <img src="static/imgs/registration_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
+        </a>
+        <a class="nav-link d-md-none" href="#">
+          <img src="static/imgs/notifications_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
+        </a>
+        <a class="nav-link d-md-none" href="#">
+          <img src="static/imgs/manage_accounts_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
+        </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,17 +63,17 @@
             </li>
           </ul>
           <ul class="navbar-nav mr-2">
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">
                 <img src="static/imgs/registration_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">
                 <img src="static/imgs/notifications_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">
                 <img src="static/imgs/manage_accounts_icon.svg" width="35" height="35" class="d-inline-block align-middle" alt="">
               </a>
@@ -97,7 +107,7 @@
             <div class="col-12">
               <p class="bg-warning p-2">專案類別</p>
               <div class="form-row">
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -105,7 +115,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -113,7 +123,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -121,7 +131,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -129,7 +139,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -137,9 +147,7 @@
                     </label>
                   </div>
                 </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -147,7 +155,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -155,7 +163,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -163,7 +171,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="form-group col-2">
+                <div class="form-group col-6 col-md-2">
                   <div class="form-check d-flex align-items-center">
                     <input class="form-check-input checkbox-1x" type="checkbox" id="gridCheck">
                     <label class="form-check-label pl-3" for="gridCheck">
@@ -200,13 +208,31 @@
             </div>
           </div>
           <div class="row mt-5 mb-5 pb-3">
-            <div class="col-12 mt-5">
+            <div class="col-12 mt-5 d-none d-md-block">
               <div class="d-flex justify-content-between">
                 <button class="btn btn-primary" style="width: 20%">上一步</button>
                 <button class="btn btn-primary" style="width: 20%">檢視草稿</button>
                 <button class="btn btn-primary" style="width: 20%">儲存草稿</button>
                 <button class="btn btn-primary" style="width: 20%">完成</button>
               </div>
+            </div>
+            <!-- <div class="col-12 mt-5 d-md-none">
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-primary" style="width: 45%">上一步</button>
+                <button class="btn btn-primary" style="width: 45%">檢視草稿</button>
+              </div>
+            </div>
+            <div class="col-12 mt-4 d-md-none">
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-primary" style="width: 45%">儲存草稿</button>
+                <button class="btn btn-primary" style="width: 45%">完成</button>
+              </div>
+            </div> -->
+            <div class="col-12 mt-3 d-md-none">
+              <button class="btn btn-primary btn-block">上一步</button>
+              <button class="btn btn-primary btn-block mt-3">檢視草稿</button>
+              <button class="btn btn-primary btn-block mt-3">儲存草稿</button>
+              <button class="btn btn-primary btn-block mt-3">完成</button>
             </div>
           </div>
         </form>
